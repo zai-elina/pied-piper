@@ -1,0 +1,174 @@
+body{
+	font-family: 'Roboto', normal;
+    margin:0 auto;
+}
+*{
+    box-sizing: border-box; /*вычисляет общую ширину и высоту элемента, сжимает контент для отступов и границ*/
+}
+
+#the-problem,
+#PiedPiperCoin,#the-team {
+    border-top: 84px solid transparent;
+    margin-top: -84px;
+    background-clip: padding-box;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    color: #fff;
+}
+h2{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin:0;
+}
+.container{
+    max-width: 1219px;
+    margin: 0 auto;
+    padding: 0 55px 0 55px;
+}
+/* Header */
+.header-section{
+    background-color: #007765;
+    position:fixed;
+    height: 84px;
+    width:100%;
+}
+.navbar{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding:20px 19px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-item{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color:#fff;
+}
+.menu-item:hover{
+    color:black;
+    text-decoration: underline;
+}
+li span{
+    color:#fff;
+    padding: 0 8px 0 8px;
+    font-size:24px;
+}
+
+/* PiperNet */
+.piper{
+    height: 403px;
+    background: url(img/image1.png) 0 0 / cover no-repeat;
+    padding-top: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-problem{
+    background: #EEEEEE;
+    height: 719px;
+}
+.the-problem-title{
+    padding-top: 84px;
+}
+.the-problem-text{
+    color:#000000;
+    font-weight: 700px;
+    font-size:32px;
+    line-height: 37.5px;
+}
+/* Hero */
+.quote{
+    height:483px;
+    background: url(img/image2.png) 0 0 / cover no-repeat;
+}
+.quote-text{
+    padding-top: 128px;
+    width: 893px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin:0 auto;
+}
+
+/* PiedPiperCoin */
+.pipercoin-content{
+    padding-bottom: 52px;
+}
+.pipercoin-title{
+    margin:48px 0 16px 0; 
+}
+.ppc-logo{
+    float:left;
+    padding-right:48px;
+}
+.pipercoin-text{
+    margin-bottom:40px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+/* The Team */
+.the-team{
+    background: #EEEEEE;
+    padding-bottom: 112px;
+}
+.the-team-title{
+    padding: 58px 0 32px 0;
+}
+.workers{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.worker{
+    width: 33%;
+    padding: 0 30px 30px 30px;
+}
+.photo{
+    margin-bottom: 12px;
+}
+.name{
+    color:#007765;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* Footer */
+footer{
+    background-color: #333333;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+}
+.footer-text{
+    color:#EEEEEE;
+    width: 540px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 50px 0px 0px;
+}
