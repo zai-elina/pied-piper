@@ -80,13 +80,13 @@ li span{
     justify-content: center;
     align-items: center;
 }
-
+/* The Problem */
 .the-problem{
     background: #EEEEEE;
-    height: 719px;
+    padding-bottom: 92px;;
 }
 .the-problem-title{
-    padding-top: 84px;
+    padding-top: 48px;
 }
 .the-problem-text{
     color:#000000;
